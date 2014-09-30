@@ -29,6 +29,6 @@ By the  end of it, you should have something like this - https://instagram.com/o
 
 - SAVE THAT URL! At least the part after 'access_token='. You'll need it later for making requests to the Instagram API.
 
-Woot! You can now ask Instagram for images. Let's do a quick rundown on how we're going to do this - 
-
+####Woot! You can now ask Instagram for images. Let's do a quick rundown on how we're going to do this...
+We're going to send Instagram a GET request with some parameters – Your access token, and other ones like _tag_, _user_, _media type_, _recent_ and so on. We're going to do this with JavaScript, and when Instagram's API responds with the data, we parse it and append it to our page. Then comes the fun part - CSS!
 
